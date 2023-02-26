@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GALLERY</title>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7))
+    ,url(wp7609531.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+ nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+.first{
+    border-radius: 10px;
+    background-position: right;
+}
+figcaption{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+        </style>
+    </head>
+    <body>
+        
+        <section class="header">
+            <nav>
+                <a href="lexa studios.html" ><img src=
+                    "contact us console.png" width="150px" height="100px" > </a>
+                     <P class="paragraph">GALLERY</P>
+                     <div class="nav-links">
+                        <ul>
+                            <li><a href="lexa studios.html">HOME</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="About us.html">ABOUT</a></li>
+                            <li><a href="contact 2.html">CONTACT</a></li>
+
+                        </ul>
+                     </div>
+            </nav>
+            <div class="first">
+                <img src="Advantages_and_Disadvantages_of_artificial_intelligence.avif" width="400" height="230" >
+                <figcaption>A.I Computer Intelligence</figcaption>
+                <img src="computer room.avif" width="400" height="230">
+                <figcaption>Condusive Computer Room</figcaption>
+                <img src="TCH36-01-scaled.jpg" width="400" height="230">
+                <figcaption>Built In A.I Speaker</figcaption>
+                <img src="Uses-Importance-of-Computer-in-Office-Work.webp" width="400" height="230">
+                <figcaption>Good Staff</figcaption>
+                <img src="neon-game-controller-joystick-game-console-center-perspective-cyber-space-background_32996-2179.avif" width="400" height="230">
+                <figcaption>Futuristic Design</figcaption>
+                <img src="teaching-code-programming-young-bearded-male-teacher-pointing-whiteboard-explaining-how-to-code-html-css-giving-lesson-191939056.jpg" 
+                width="400" height="230">
+                <figcaption>Good Teacher</figcaption>
+            </div>
+        </section>
+    </body>
+</html>
